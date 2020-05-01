@@ -27,7 +27,7 @@ spec:
     dockerStrategy:
       from:
         kind: DockerImage
-        name: fedora
+        name: ubi8/nodejs-12
       forcePull: true
       noCache: true
     type: Docker
